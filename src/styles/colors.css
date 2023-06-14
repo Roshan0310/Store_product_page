@@ -1,0 +1,15 @@
+:root {
+    --main:#fa9f30;
+    --secondary: #abb8c3;
+    --tertiary:#f5f7f9;
+    --white:#ffffff;
+    --shade:rgba(0,0,0,0.07);
+    --padding:13.33vmax;
+    --p_md:7vmax;
+    --p_base:5vmax;
+    --p_base_inverse: 15vmax 10vmax;
+    --p_sm:1.5vmax;
+    --p_sm_inverse: 13vmax 0;
+    --p_zero:0;
+    --black:#000000ea;
+  }
