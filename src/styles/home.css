@@ -123,3 +123,55 @@
     }
 
 }
+
+
+@media screen and (max-width: 786px) {
+    #home{
+        width: 100%;
+        height: 50vh;
+    }
+
+    .section1{
+
+        >div {
+            margin: 1vmax;
+        }
+
+        >div h1{
+            font-size: 3rem;
+            color: var(--white);
+        }
+
+        >div h3 {
+            font-size: 0.8rem;
+            color: var(--white);
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 632px) {
+    #home{
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+    }
+
+    .section1{
+        margin-bottom: 3rem;
+        >div {
+            margin:1rem;
+        }
+
+        >div h1{
+            font-size: 2rem;
+            color: var(--white);
+        }
+
+        >div h3 {
+            font-size: 0.8rem;
+            color: var(--white);
+        }
+    }
+}

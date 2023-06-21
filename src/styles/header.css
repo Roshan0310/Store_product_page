@@ -37,6 +37,19 @@ nav > div {
 
 }
 
+.btnn{
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--white);
+    display: none;
+
+}
+
+
+.btnn:hover {
+    color: blue;
+}
 
 
 @media screen and (max-width:951px){
@@ -56,3 +69,21 @@ nav > div {
 
 
 }
+
+
+@media screen and (max-width: 786px) {
+    nav {
+      > div,
+      > a {
+        display: none;
+      }
+    }
+    .navBtn {
+      display: block;
+    }
+
+    .btnn{
+        display: inline;
+        
+    }
+  }

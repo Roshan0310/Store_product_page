@@ -161,6 +161,7 @@
 
     #carousel{
         padding: 8rem 4rem;
+      
         >h2{
             margin-bottom: 0%;
             font:700 2rem "Roboto";
@@ -194,5 +195,45 @@
         }
     }
 
+
+}
+
+
+@media screen and (max-width: 630px){
+    #carousel{
+        padding: 8rem 4rem;
+      
+        >h2{
+            margin-bottom: 0%;
+            font:700 2rem "Roboto";
+            
+        }
+        >section{
+          >article{
+            height: 25rem;
+            padding: 4rem;
+            margin-bottom: 3rem;
+            width: 100%;
+
+       
+          }
+
+          .carouselItem{
+            height: 25rem;
+           
+
+            >aside{
+                >p{
+                margin: 1rem;
+                  
+                }
+
+                >a{
+                    margin:1rem;
+                }
+            }
+          }
+        }
+    }
 
 }
