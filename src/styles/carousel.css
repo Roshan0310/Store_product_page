@@ -10,6 +10,7 @@
         border-bottom: 1px solid blue;
         padding: 0.5rem;
         margin: auto;
+      
     }
 
     >section {
@@ -87,4 +88,111 @@
 
     }
     
+}
+
+@media screen and (max-width:1110px){
+
+    #carousel{
+        padding: 8rem var(--p_sm);
+
+        >section{
+          >article{
+            height: 20rem;
+            width: 90%;
+          }
+
+          .carouselItem{
+            height: 20rem;
+            padding: 2rem;
+
+            >aside{
+                >p{
+                    margin: 1rem;
+                    background-color: aqua;
+                }
+
+                >a{
+                    margin:1rem;
+                }
+            }
+          }
+        }
+    }
+
+
+}
+
+@media screen and (max-width:950px){
+
+    #carousel{
+        padding: 8rem 5rem;
+
+        >section{
+          >article{
+            height: 25rem;
+            width: 110vh;
+            padding: 3rem;
+          
+          }
+
+          .carouselItem{
+            height: 25rem;
+         
+
+            >aside{
+                >p{
+                    margin: 1rem;
+                 
+                }
+
+                >a{
+                    margin:1rem;
+                }
+            }
+          }
+        }
+    }
+
+
+}
+
+
+@media screen and (max-width:843px){
+
+    #carousel{
+        padding: 8rem 4rem;
+        >h2{
+            margin-bottom: 0%;
+            font:700 2rem "Roboto";
+            
+        }
+        >section{
+          >article{
+            height: 25rem;
+            padding: 4rem;
+            margin-bottom: 3rem;
+            width: 90%;
+
+       
+          }
+
+          .carouselItem{
+            height: 25rem;
+           
+
+            >aside{
+                >p{
+                margin: 1rem;
+                  
+                }
+
+                >a{
+                    margin:1rem;
+                }
+            }
+          }
+        }
+    }
+
+
 }

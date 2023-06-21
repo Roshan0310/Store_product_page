@@ -38,3 +38,21 @@ nav > div {
 }
 
 
+
+@media screen and (max-width:951px){
+
+    nav{
+        padding: 0 var(--p_sm);
+
+        >h2{
+            font-size: 1.8rem;
+        }
+
+        >div{
+            gap: 1rem;
+        }
+    }
+
+
+
+}

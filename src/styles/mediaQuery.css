@@ -1,0 +1,71 @@
+@media screen and (max-width:1367px) {
+
+    nav{
+        padding: 0 var(--p_sm);
+    }
+
+    #home{
+        height: 100vh;
+
+        >.section1{
+            .section1:first-of-type{
+                padding-left: var(--p_md);
+
+                >div{
+                    width: 85%;
+                    width: 90%;
+                }
+            }
+        }
+    }
+
+
+    #featured{
+        padding: 8rem var(--p_md);
+        height: 110vh;
+
+        .section2{
+            .card{
+
+                height: 20rem;
+                width: 20%;
+            }
+        }
+    }
+
+    #carousel{
+        padding: 8rem var(--p_md);
+        height: 110vh;
+        >section{
+          >article{
+            height: 20rem;
+            width: 110vh;
+          }
+
+          .carouselItem{
+            padding: 2rem;
+            height: 20rem;
+
+            >aside{
+                >p{
+                    margin: 1rem;
+                    background-color: aqua;
+                }
+
+                >a{
+                    margin:1rem;
+                }
+            }
+          }
+        }
+    }
+
+
+    footer{
+        padding-left: var(--p_md);
+    }
+    
+}
+
+
+
