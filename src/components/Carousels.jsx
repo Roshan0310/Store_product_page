@@ -39,7 +39,7 @@ const Carousels = () => {
                   <p className="description">${i.description}</p>
                   <small>{i.category}</small>
                   <a href="#home" target="blank">
-                    Add to Cart
+                    Add to Cart t
                   </a>
 
                   <StarRatings
